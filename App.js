@@ -28,7 +28,7 @@ export default class App extends Component<Props> {
         <Text style={styles.instructions}>{instructions}</Text>
         <JWPlayer 
             key={'name'}
-            buttonText={this.state ? (this.state.start ? "a" : "false") : "false"}
+            //buttonText={this.state ? (this.state.start ? "a" : "false") : "false"}
             style={{ width: 300, height: 300, backgroundColor: "red" }} 
           />
       </View>
